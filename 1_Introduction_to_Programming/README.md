@@ -8,7 +8,7 @@
 
 ### Exc2. Three unique - Optimizing brute-force algorithm to O(n) in C.
 
-### Exc3. Origami - Recursion and input parsig in C.
+### Exc3. Origami - Recursion and input parsing in C.
 
 ### Exc4. Queues - Raw pointer managment in C++.
 
