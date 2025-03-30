@@ -4,9 +4,9 @@
 
 ## PL: Algorytmy i Struktury Danych
 
-### Exc1. Excersise specific algorithm.
+### Exc1. A problem-specific algorithm.
 
-### Exc2. Excersise specific algorithm.
+### Exc2. A problem-specific algorithm.
 
 ### Exc3. Custom sort - Dynamic Programming with multiple tables.
 
