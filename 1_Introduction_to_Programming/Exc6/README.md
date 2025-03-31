@@ -9,7 +9,7 @@ Twoim zadaniem jest napisanie programu, który gra w tę grę jako Bolek.
 #### Funkcja: `dajParametry`
 ```cpp
 void dajParametry(int &n, int &k, int &g);
-```cpp
+```
 
 Funkcja podaje Ci trzy liczby: liczbę n określającą zakres, liczbę k oznaczającą maksymalną liczbę razy, ile Ala może skłamać w jednej grze, oraz liczbę g oznaczającą liczbę gier do rozegrania przy danych parametrach n oraz k. Od wywołania tej funkcji rozpoczyna się pierwsza gra.
 
@@ -17,7 +17,7 @@ W każdej z gier możesz zadawać Ali pytania jedynie za pomocą funkcji
 
 ```cpp
 bool mniejszaNiz(int y);
-```cpp
+```
 
 Wynikiem funkcji jest odpowiedź Ali na pytanie "Czy x < y?", dla nieznanej Ci liczby x. Dokładniej, jeśli wynikiem funkcji jest true, oznacza to, że Ala odpowiada "Tak", a jeśli wynikiem jest false, to Ala odpowiada "Nie". Odpowiedź Ali nie musi być prawdziwa, jednak w ciągu jednej gry Ala może skłamać co najwyżej k razy.
 
@@ -25,7 +25,7 @@ Na końcu gry powinieneś podać Ali swoją odpowiedź za pomocą funkcji
 
 ```cpp
 void odpowiedz(int x);
-```cpp
+```
 
 Wywołanie tej funkcji powoduje automatycznie rozpoczęcie kolejnej gry, jeśli jeszcze nie zostało rozegranych g gier. W przeciwnym razie wywołanie funkcji zakończy działanie Twojego programu.
 
