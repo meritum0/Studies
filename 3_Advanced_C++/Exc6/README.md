@@ -29,32 +29,28 @@ Mamy kilka typów liczników:
 
 Należy napisać program obsługujący zbiór liczników. Program czyta dane ze standardowego wejścia i obsługuje różne komendy. Poprawna linia z danymi wejściowymi może mieć jeden z następujących formatów:
 
-1. **M <C> <P> <M>**:  
+1. M <C> <P> <M>:  
    Tworzy licznik modulo o numerze `<C>` z parametrami `<P>`, `<M>`.
 
-2. **F <C> <P>**:  
+2. F <C> <P>:  
    Tworzy licznik Fibonacciego o numerze `<C>` z parametrem `<P>`.
 
-3. **G <C> <P>**:  
+3. G <C> <P>:  
    Tworzy licznik geometryczno-dziesiętny o numerze `<C>` z parametrem `<P>`.
 
-4. **D <C>**:  
+4. D <C>:  
    Usuwa licznik o numerze `<C>`.
 
-5. **P <C>**:  
+5. P <C>:  
    Wypisuje literę `C`, spację, numer licznika, spację, wartość licznika i znak nowej linii.
 
-6. **A <T>**:  
-   Wysyła do wszystkich liczników `<T>` impulsów. Powoduje wypisanie zdarzeń wygenerowanych przez wszystkie liczniki od poprzedniego wykonania tego polecenia lub od początku działania programu. Zdarzenia są wypisywane w osobnych liniach w porządku chronologicznym.
+6. A <T>:  
 
-### Format Zdarzenia
-Zdarzenie jest wypisywane w następującym formacie:
+Wysyła do wszystkich liczników <T> impulsów. Powoduje wypisanie na standardowe wyjście zdarzeń wygenerowanych przez wszystkie liczniki od poprzedniego wykonania tego polecenia lub od początku działania programu, jeśli to polecenie jest wykonywane pierwszy raz. Każde zdarzenie wypisywane jest w osobnej linii zakończonej znakiem nowej linii i składa się z litery E, spacji, numeru licznika <C> zgłaszającego to zdarzenie, spacji i liczby impulsów od poprzedniego wykonania tego polecenia lub od początku działania programu, jeśli to polecenie jest wykonywane pierwszy raz. Zdarzenia wypisywane są chronologiczne według ich czasu zgłoszenia. Zdarzenia zgłoszone w tym samym czasie są sortowane rosnąco w kolejności numerów liczników je zgłaszających. Jeśli nie ma zdarzeń, to niczego nie wypisuje.
 
-E <C> <Liczba impulsów>
+Początkowa wartość nowego licznika wynosi zero. Parametry <C>, <P>, <M>, <T> są liczbami całkowitymi z przedziału od 0 do UINT64_MAX.
 
-gdzie:
-- `<C>` to numer licznika,
-- `<Liczba impulsów>` to liczba impulsów od poprzedniego wykonania polecenia.
+Nazwa polecenia i jego parametry oddzielone są pojedynczą spacją. Linie wejściowe są rozdzielone znakiem nowej linii. Po ostatniej linii znak nowej linii jest opcjonalny. Poprawne dane wejściowe nie zawierają innych białych znaków niż wymienione powyżej.
 
 ### Obsługa Błędów
 
