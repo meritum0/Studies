@@ -4,6 +4,8 @@
 
 ## PL: Algorytmy i Struktury Danych
 
+## The tasks below contain the best or nearly optimal solutions for the given problems in terms of time complexity.
+
 ### Exc1. A problem-specific algorithm.
 
 ### Exc2. A problem-specific algorithm.
