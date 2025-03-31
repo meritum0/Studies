@@ -33,7 +33,7 @@ Wartości $\alpha(d,A_0,B_0)$ możemy wyliczyć rekurencyjnie, budując inkremen
 
 ### Algorytm rekurencyjny
 
-```c
+
 Solve(d,A,B):
     if \sum A > \sum B then swap(A, B)
     S \leftarrow A_\Sigma \cap B_\Sigma
@@ -43,7 +43,6 @@ Solve(d,A,B):
     else if S = {0} then
         return max_{x \in \{lastA,\dots,d\} \setminus B_\Sigma} Solve(d,A \cup \{x\},B)
     else return 0
-```
 
 W praktyce, aby nie liczyć zbiorów sum $A_\Sigma$ i $B_\Sigma$ za każdym razem od nowa, przekazujemy $A_\Sigma$ i $B_\Sigma$. Gdy dodajemy element $x$ do $A$, to nowy $A_\Sigma$ wynosi $A_\Sigma \cup (A_\Sigma + x)$.
 
