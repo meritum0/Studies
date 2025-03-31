@@ -2,7 +2,7 @@
 
 ## University of Warsaw
 
-## Faculty of Mathematics, Computer Science, and Mechanics
+## Faculty of Mathematics, Computer Science and Mechanics
 
 ## Course: Computer Science
 
