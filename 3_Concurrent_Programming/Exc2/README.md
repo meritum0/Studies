@@ -33,8 +33,6 @@ Wartości $\alpha(d,A_0,B_0)$ możemy wyliczyć rekurencyjnie, budując inkremen
 
 *Tutaj był podany algorytm rekurencyjny w pseudokodzie.
 
-W praktyce, aby nie liczyć zbiorów sum $A_\Sigma$ i $B_\Sigma$ za każdym razem od nowa, przekazujemy $A_\Sigma$ i $B_\Sigma$. Gdy dodajemy element $x$ do $A$, to nowy $A_\Sigma$ wynosi $A_\Sigma \cup (A_\Sigma + x)$.
-
 ## Zadanie
 
 Zadanie polega na napisaniu dwóch innych implementacji tego samego obliczenia:
