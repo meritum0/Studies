@@ -143,3 +143,5 @@ Wynik funkcji:
 Wyznaczenie wartości sygnału i długości ścieżki krytycznej na wyjściu bramki wymaga rekurencyjnego wyznaczenia tych wartości na jej wejściach (choć nie wymagamy rekurencyjnej implementacji), chyba że bramka nie ma wejść. Wyznaczenie tych wartości może się nie udać, jeśli do któregoś wejścia nie jest podłączony żaden sygnał, procedura się zapętla (bramki nie tworzą układu kombinacyjnego) lub wystąpi błąd alokowania pamięci.
 
 Należy zadbać, aby wyznaczenie wartości sygnału i długości ścieżki krytycznej na wyjściu bramki było wykonane tylko raz.
+
+Wycieki pamięci będą sprawdzane za pomocą valgrinda
