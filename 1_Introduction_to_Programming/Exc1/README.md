@@ -1,4 +1,4 @@
-# Arytmetyka przybliżonych wartości
+# (ENG below) Arytmetyka przybliżonych wartości
 
 Tam, gdzie dokonujemy pomiarów wielkości fizycznych, wyniki są obarczone pewnym błędem, np. `5m ± 10%`. Każdą taką przybliżoną wartość traktujemy jak zbiór możliwych wartości.  
 
