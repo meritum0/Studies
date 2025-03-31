@@ -31,18 +31,7 @@ Niemniej w tym zadaniu będziemy chcieli zweryfikować to obliczeniowo dla jak n
 
 Wartości $\alpha(d,A_0,B_0)$ możemy wyliczyć rekurencyjnie, budując inkrementacyjnie multizbiory $A \supseteq A_0$ i $B \supseteq B_0$. Oznaczmy przez $A_\Sigma=\{\sum A' : A' \subseteq A\}$, czyli zbiór wszystkich możliwych sum, jakie możemy uzyskać ze zbioru $A$.
 
-### Algorytm rekurencyjny
-
-
-Solve(d,A,B):
-    if \sum A > \sum B then swap(A, B)
-    S \leftarrow A_\Sigma \cap B_\Sigma
-    if \sum A = \sum B then
-        if S = {0, \sum A} then return \sum A
-        else return 0
-    else if S = {0} then
-        return max_{x \in \{lastA,\dots,d\} \setminus B_\Sigma} Solve(d,A \cup \{x\},B)
-    else return 0
+*Tutaj był podany algorytm rekurencyjny w pseudokodzie.
 
 W praktyce, aby nie liczyć zbiorów sum $A_\Sigma$ i $B_\Sigma$ za każdym razem od nowa, przekazujemy $A_\Sigma$ i $B_\Sigma$. Gdy dodajemy element $x$ do $A$, to nowy $A_\Sigma$ wynosi $A_\Sigma \cup (A_\Sigma + x)$.
 
