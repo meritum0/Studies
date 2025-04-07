@@ -1,4 +1,4 @@
-# (ENG below) Badanie liczby warstw w origami
+# Badanie liczby warstw w origami
 
 ## Opis problemu
 

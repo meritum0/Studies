@@ -1,4 +1,4 @@
-# (ENG below) Gra w zgadywanie liczby z kłamstwami
+# Gra w zgadywanie liczby z kłamstwami
 
 Ala wymyśliła sobie pewną liczbę `x` z zakresu od 1 do `n`. Bolek próbuje zgadnąć tę liczbę. Jedyne pytania, jakie może zadawać Bolek, są postaci: "Czy `x < y`?" dla dowolnie wybranych przez niego liczb `y`. Na każde z takich pytań Bolek otrzymuje odpowiedź "Tak" lub "Nie". Zadaniem Bolka jest odgadnąć `x`, zadając jak najmniej pytań. Niestety, Ala może czasem kłamać.
 

@@ -1,4 +1,4 @@
-# (ENG below) Struktura danych do zapytań o ciąg liczb
+# Struktura danych do zapytań o ciąg liczb
 
 ## Opis problemu
 

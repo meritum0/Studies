@@ -1,4 +1,4 @@
-# (ENG below) Symulacja pracy urzędu
+# Symulacja pracy urzędu
 
 ## Opis problemu
 
